@@ -1,0 +1,24 @@
+# EXERCICIO 21
+# Média de quatro notas
+
+nota1 = 0.0
+nota2 = 0.0
+nota3 = 0.0
+nota4 = 0.0
+media = 0.0
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+nota4 = float(input("Digite a quarta nota: "))
+
+media = (nota1 + nota2 + nota3 + nota4) / 4
+
+print("Média:", media)
+
+if media >= 6:
+    print("APROVADO")
+elif media >= 3:
+    print("EXAME")
+else:
+    print("RETIDO")
